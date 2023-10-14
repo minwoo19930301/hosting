@@ -46,12 +46,12 @@
         }
 
         a {
-            color: #065fc0; /* Change link color */
-            text-decoration: underline; /* Add underline for clarity */
+            color: #465fcc; /* Change link color */
+            text-decoration: none; /* Add underline for clarity */
         }
 
         a:hover {
-            text-decoration: none; /* Remove underline on hover */
+            text-decoration: underline; /* Remove underline on hover */
         }
 
 
@@ -113,7 +113,8 @@
                     src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FvbskP%2Fbtsytv0Cav3%2FfXgPYy685Qw55El4wKC1Vk%2Fimg.png"
                     alt="윤 혜 영">
             <h2>정원 미니 전시회</h2>
-            <p>파타고니아 영남 알프스점 정원</p>
+            <p><a href="https://naver.me/FCBIJru5">파타고니아 영남 알프스점 정원</a></p>
+
             <p>2023. 10. 21. ~ 10. 31.</p>
         </div>
 
@@ -204,12 +205,14 @@
                 translate: ["120%", 0, -500],
             },
         },
-
         pagination: {
             el: ".swiper-pagination",
             clickable: true,
         },
+        slideToClickedSlide: true
     });
+
+
 
 
 </script>
