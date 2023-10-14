@@ -32,14 +32,11 @@
 
         /* Add a refined Google Font */
         @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
-
+        @import url('https://fonts.googleapis.com/css2?family=Gowun+Batang&family=Gowun+Dodum&display=swap');
         body {
-            font-family: 'Roboto', sans-serif;
+            font-family: 'Gowun Dodum', sans-serif;
         }
 
-        h1, h2 {
-            font-weight: 500; /* Semi-bold */
-        }
 
         p, li {
             font-weight: 300; /* Light */
@@ -47,7 +44,7 @@
         }
 
         a {
-            color: #007BFF; /* Change link color */
+            color: #065fc0; /* Change link color */
             text-decoration: underline; /* Add underline for clarity */
         }
 
@@ -76,7 +73,7 @@
 
 
         #photo{
-            margin-top: 100px;
+            margin-top: 50px;
             align-self: auto;
         }
 
@@ -89,6 +86,10 @@
             font-size: 12px; /* Further reduce font size for better fit */
         }
 
+        li {
+            font-family: 'Gowun Batang', serif;
+        }
+
 
         /* Add the Noto Sans KR font from Google Fonts */
         @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500&display=swap');
@@ -98,7 +99,20 @@
             font-family: 'Noto Sans KR', sans-serif;
         }
 
+
+        /* Target the last two <li> elements */
+        .swiper-slide ul li{
+            text-align: left;
+            width: 100%; /* Ensure the full width is utilized */
+        }
+
+
+
+
     </style>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gowun+Batang&family=Gowun+Dodum&display=swap" rel="stylesheet">
 </head>
 <body>
 <div class="swiper-container">
@@ -114,7 +128,7 @@
         </div>
 
         <div class="swiper-slide">
-            <p style="font-size: 19px; line-height: 1.5;">
+            <p style="font-size: 19px; line-height: 1.5; font-family: 'Gowun Batang', serif;">
                 <b>어</b>느새,<br>
                 아침 공기가<br>
                 차갑게 느껴지는 날입니다.<br>
@@ -171,6 +185,7 @@
                 <li>한국 파스텔 공모전 입상</li>
                 <li>3인전 Remington Gallery, USA</li>
                 <li>대상수상 NCSFA in SanDiego,USA</li>
+                <li> ​  </li>
                 <li><a href="mailto:yhy43923633@gmail.com">yhy43923633@gmail.com</a></li>
                 <li><a href="tel:010-4392-3633">010-4392-3633</a></li>
             </ul>
